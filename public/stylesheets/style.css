@@ -1,5 +1,54 @@
 body {
   text-align: center;
   font-size: 12px;
-  font-family: "Arial, sans-serif";
+  font-family: 'Montserrat', sans-serif;
+}
+li{
+  display: table-row-group;
+
+}
+.lista{
+  border: solid 2px white;
+  width: 245px;
+  height: 55px;
+
+}
+.lista:hover{
+  background-color: #A52A2A;
+}
+.lista:hover p{
+  color: #FFFFF0;
+}
+
+.lista:hover .foto{
+  border-color: #FFFFF0;
+}
+
+.foto{
+  height: 35px;
+  width: 41px;
+  border-radius: 100%;
+  float: left;
+  margin: 7px;
+  border: solid 3px #A52A2A;
+  position: relative;
+}
+
+.number{
+  width: 13px;
+  height: 12px;
+  border-radius: 100%;
+  border: solid 2px #A9A9A9;
+  background-color: white;
+  position: absolute;
+  margin-top: 36px;
+  left: 49px;
+}
+p{
+  float: left;
+  padding: 6px;
+  color: #A52A2A;
+}
+h5{
+  margin-top: 0px;
 }
